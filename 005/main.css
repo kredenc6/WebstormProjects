@@ -1,0 +1,31 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-image: url("../exercises_01/img/puppy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+img {
+    width: 260px;
+    border: 10px groove orangered;
+    padding: 20px;
+    margin: 40px;
+    box-sizing: border-box;
+}
+
+
+.dogone {
+    border: 20px dashed orangered;
+}
+
+.dogtwo {
+    border: 20px dotted orangered;
+}
+
+.dogthree {
+    border: 20px double orangered;
+}
