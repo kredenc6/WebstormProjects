@@ -1,0 +1,37 @@
+body {
+    font-size: 36px;
+}
+
+li:first-child {
+    color: red;
+}
+
+ul:first-child {
+    background-color: yellow;
+}
+
+li:nth-child(even) {
+    color: green;
+}
+
+li:nth-last-child(10) {
+    color: orange;
+}
+
+li:nth-child(3n+9) {
+    border: 1px dotted aqua;
+}
+
+li:only-child {
+    background-color: lightgreen;
+}
+
+p:first-letter {
+    font-family: Batang;
+    font-size: 45px;
+    color: lightgreen;
+}
+
+p:first-line {
+    color: brown;
+}

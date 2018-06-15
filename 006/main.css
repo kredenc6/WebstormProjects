@@ -1,0 +1,43 @@
+a {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+[href]:link {
+    color: aqua;
+}
+
+[href]:visited {
+    color: orangered;
+}
+
+[href]:hover {
+    color: red;
+}
+
+[href]:active {
+    border: 1px dotted blue;
+
+}
+
+
+
+div {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+}
+
+div:hover {
+    background-color: green;
+    cursor: progress;
+}
+
+.separator {
+    display: block;
+    height: 20px;
+    width: auto;
+    background-color: transparent;
+}
