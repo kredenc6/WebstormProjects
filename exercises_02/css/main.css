@@ -1,0 +1,25 @@
+
+/* general settings for divs */
+div {
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    border-radius: 20px;
+    border: 20px groove yellow;
+}
+
+/* settings for second div */
+.divtwo {
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+}
+
+/* settings for third div */
+.divthree {
+    box-sizing: border-box;
+    background-image: url("../img/puppy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
