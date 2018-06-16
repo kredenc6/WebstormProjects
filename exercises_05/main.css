@@ -1,0 +1,31 @@
+p {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+ul#summer-drinks li.favourite{
+    color: red;
+}
+
+html body ul#summer-drinks li.favourite {
+    color: blue;
+}
+
+/*  POZOR!!! (na mezery)
+html body ul #summer-drinks li.favourite
+nebo
+html body ul#summer-drinks li .favourite
+nebo
+html body ul #summer-drinks li .favourite
+
+jsou ruzne (compound) selektory!!!
+
+napr. ul#summer-drinks vybira jakekoli ul s id summer-drinks,
+kdezto ul #summer-drinks vybira veskere  cokoli s id summer-drinks, ktere se nachazi v ul*/

@@ -1,0 +1,33 @@
+html {
+    background-color: dodgerblue;
+    font-size: 18px;
+}
+div {
+    border: 5px solid black;
+    width: 50%;
+    background-color: lightgreen;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 20px groove yellow;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 30px;
+    color: blue;
+    margin: 20px 0px;
+}
+
+h2 {
+    font-size: 30px;
+    color: brown;
+    margin: 20px 0px;
+}
+
+p {
+    margin-bottom: 10px;
+}

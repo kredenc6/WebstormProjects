@@ -1,0 +1,37 @@
+#third_li {
+    color: red;
+}
+
+.second_task {
+    color: lawngreen;
+}
+
+[target] {
+    border: 2px solid black;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: rebeccapurple;
+}
+
+p::first-letter {
+    font-size: 40px;
+    font-family: "Droid Sans";
+    color: lawngreen;
+}
+
+p::first-line {
+    color: lawngreen;
+}
