@@ -1,0 +1,30 @@
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+ }
+
+#one {
+    font-weight: 300;
+
+    /* x, y values can be negative */
+    /* text-shadow: 1px -10px 3px dimgrey; */
+    text-shadow: 1px 10px 3px dimgrey;
+}
+
+#two {
+    font-weight: 400;
+}
+
+#three {
+    font-weight: 900;
+    text-decoration: overline underline red dotted;
+    /*text-decoration-line: underline;*/
+    /*text-decoration-style: wavy;*/
+}
+
+.indent {
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-indent: 10rem;
+}

@@ -1,0 +1,40 @@
+html {
+    font-family: serif;
+}
+
+.sans_serif {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.google_font_heavy {
+    font-family: 'Tajawal';
+    font-weight: 300;
+}
+
+.google_font_light {
+    text-indent: 10rem;
+    font-family: 'Tajawal';
+    font-weight: 800;
+}
+
+.spacing {
+    letter-spacing: 0.3rem;
+}
+
+h1 {
+    text-shadow: 10px -10px 2px saddlebrown;
+}
+
+.nowhere {
+    text-decoration: none;
+}
+
+.nowhere:hover {
+    text-decoration: underline;
+}
+
+.strike {
+    text-decoration: line-through;
+}

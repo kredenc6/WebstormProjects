@@ -1,3 +1,7 @@
+html {
+    font-family: cursive, fantasy;
+}
+
 .surfer {
     border: 5px solid red;
 }
