@@ -1,0 +1,7 @@
+.class1 {
+    width: 100%;
+}
+
+.class2, .class3, .class4, .class5 {
+    width: 50%;
+}

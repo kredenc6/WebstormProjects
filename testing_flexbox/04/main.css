@@ -1,0 +1,47 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    border: 3px solid orangered;
+}
+
+div {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.class1 {
+    min-height: 150px;
+    background-color: blue;
+}
+
+.class2 {
+    min-height: 150px;
+    background-color: #0001e1;
+}
+
+.class3 {
+    min-height: 150px;
+    background-color: #0001c3;
+}
+
+.class4 {
+    min-height: 150px;
+    background-color: #0001a5;
+}
+
+.class5 {
+    min-height: 150px;
+    background-color: #000187;
+}
+
+.class6 {
+    min-height: 150px;
+    background-color: #000169;
+}

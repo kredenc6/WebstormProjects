@@ -1,0 +1,15 @@
+body {
+    flex-flow: row-reverse wrap;
+}
+
+.class1 {
+    width: 60%;
+}
+
+.class2 {
+    width: 40%;
+}
+
+.class3 {
+    width: 100%;
+}

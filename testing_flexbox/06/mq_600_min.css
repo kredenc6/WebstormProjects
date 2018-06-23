@@ -1,0 +1,11 @@
+body {
+    flex-flow: row wrap;
+}
+
+.class1 {
+    width: 25%;
+}
+
+.class2 {
+    width: 75%;
+}

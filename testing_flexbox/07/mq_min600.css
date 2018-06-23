@@ -1,0 +1,22 @@
+nav {
+    background-color: deepskyblue;
+}
+
+ul {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+
+li {
+    border: none;
+    border-right: 1px solid white;
+}
+
+li:first-child {
+     border-left: 1px solid white;
+ }
+
+li:last-child {
+    border: none;
+}

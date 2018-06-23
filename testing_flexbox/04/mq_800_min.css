@@ -1,0 +1,15 @@
+body {
+    width: 800px;
+}
+
+.class1 {
+    width: 60%;
+}
+
+.class2 {
+    width: 40%;
+}
+
+.class3, .class4, .class5 {
+    width: 33.33%;
+}

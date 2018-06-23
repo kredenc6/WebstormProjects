@@ -1,0 +1,30 @@
+
+
+html, body, nav, ul, li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+    background-color: deepskyblue;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    background-color: dodgerblue;
+}

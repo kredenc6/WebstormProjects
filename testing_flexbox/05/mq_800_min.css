@@ -1,0 +1,12 @@
+.class1 {
+    width: 60%;
+    order: 1;
+}
+
+.class2, .class3 {
+    width: 20%;
+}
+
+.class2 {
+    order: 2;
+}
