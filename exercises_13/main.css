@@ -1,0 +1,47 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid black;
+}
+
+.class1, .class2, .class3, .class4, .class5, .class6, .class7 {
+    min-height: 150px;
+    width: 100%;
+    background-image: url("img/sunset.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*.class1 {*/
+    /*background-color: #2d2d2d;*/
+/*}*/
+
+/*.class2 {*/
+    /*background-color: #4a4a4a;*/
+/*}*/
+
+/*.class3 {*/
+    /*background-color: #686868;*/
+/*}*/
+
+/*.class4 {*/
+    /*background-color: #868686;*/
+/*}*/
+
+/*.class5 {*/
+    /*background-color: #a5a5a5;*/
+/*}*/
+
+/*.class6 {*/
+    /*background-color: #c3c3c3;*/
+/*}*/
+
+/*.class7 {*/
+    /*background-color: #e0e0e0;*/
+/*}*/
