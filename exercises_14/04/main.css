@@ -1,0 +1,29 @@
+html, body, nav, main, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav, main {
+    display: inline-block;
+    height: 300px;
+}
+
+nav {
+    width: 30%;
+    border: 2px solid crimson;
+    position: absolute;
+}
+
+main {
+    width: 70%;
+    border: 2px solid black;
+    /*position: absolute;*/
+    margin-left: 30%;
+}

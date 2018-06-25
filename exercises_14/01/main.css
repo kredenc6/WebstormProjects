@@ -1,0 +1,13 @@
+html, body, div, footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+     height: 50px;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     border: 4px solid crimson;
+     background-color: orangered;
+ }

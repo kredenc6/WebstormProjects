@@ -1,0 +1,22 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3rem;
+}
+
+div {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid lightgrey;
+    background-image: url("img/paradise.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: whitesmoke;
+}

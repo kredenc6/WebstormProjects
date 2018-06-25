@@ -1,0 +1,11 @@
+div {
+    display: flex;
+}
+
+nav, aside {
+    width: 15%;
+}
+
+article {
+    width: 70%;
+}

@@ -1,0 +1,29 @@
+html, body, div, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px dashed hotpink;*/
+}
+
+div {
+    text-transform: uppercase;
+}
+
+#div1 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border: 3px solid crimson;
+    background-color: orangered;
+
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: deeppink;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+}

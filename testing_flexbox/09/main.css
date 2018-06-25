@@ -1,0 +1,39 @@
+html, body, header, article, aside, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, article, aside, footer {
+    width: 100%;
+    padding: 10px 0;
+}
+
+header, aside, footer {
+    text-align: center;
+}
+
+header {
+    background-color: orangered;
+}
+
+article {
+    background-color: cornflowerblue;
+}
+
+aside:nth-child(3) {
+    background-color: yellow;
+}
+
+aside:nth-child(4) {
+    background-color: hotpink;
+}
+
+footer {
+    background-color: lightgreen;
+}
