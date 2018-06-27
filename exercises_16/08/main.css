@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 10px groove yellow;
+    width: 600px;
+    height: 400px;
+    background-image: url("img/black_dog.png");
+    background-repeat: no-repeat;
+    background-position: 300px 10px;
+}

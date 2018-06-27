@@ -1,0 +1,18 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 20px solid black;
+    max-width: 50%;
+    height: 120vh;
+    background-color: #0001c3;
+    color: whitesmoke;
+    padding: 30px;
+    background-image: url("img/black_dog.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+}

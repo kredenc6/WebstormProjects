@@ -1,0 +1,27 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#image1 {
+    float: left;
+}
+
+#image2 {
+    float: right;
+}
+
+div:nth-child(1) {
+    border: 3px solid orangered;
+}
+
+div:nth-child(2) {
+    clear: both;
+    overflow: auto;
+}
