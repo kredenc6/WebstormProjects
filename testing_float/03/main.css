@@ -1,0 +1,23 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul, div {
+    border: 2px solid black;
+    float: left;
+}
+
+div {
+    width: 50%;
+}
+
+ul {
+    margin-top: 0;
+}

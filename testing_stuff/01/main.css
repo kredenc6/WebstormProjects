@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 5px dashed hotpink;
+}
+
+#whatever {
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    border: 10px solid tomato;
+    background-color: lightsteelblue;
+    background-image: url("img/party.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    /*background-origin: padding-box;*/
+    /*background-origin: border-box;*/
+}
+
+.above_the_fold {
+    height: 100vh;
+    background-image: url("img/sunset.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
