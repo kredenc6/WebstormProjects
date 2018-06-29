@@ -1,0 +1,35 @@
+html {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 70%;
+    border: 1px  solid lightgray;
+}
+
+p {
+    border: 1px solid rosybrown;
+}
+
+#span_x {
+    vertical-align: 1rem;
+}
+
+#span_y {
+    vertical-align: -2rem;
+}
+
+#span_z {
+    vertical-align: middle;
+}
