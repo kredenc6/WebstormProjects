@@ -1,0 +1,16 @@
+#idx-atf {
+    background-image: url("../img/street-mobile.png");
+}
+
+.idx-center {
+    height: 85vh;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 0.8rem;
+    line-height: 1.2;
+}

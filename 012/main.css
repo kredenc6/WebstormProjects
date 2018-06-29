@@ -1,0 +1,54 @@
+/*html, body, section, div {*/
+    /*border: 1px dashed hotpink;*/
+/*}*/
+
+html {
+    font-family: 'Cantarell', sans-serif;
+    color: whitesmoke;
+}
+
+#idx-atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    background-image: url("img/street.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.idx-center {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2, button {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+h2 {
+    margin: 0.5rem 0;
+}
+
+#b-atf {
+    margin-top: 2.5rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: rgb(202, 250, 234);
+    border: 1px solid rgb(202, 250, 234);
+    border-radius: 5px;
+}

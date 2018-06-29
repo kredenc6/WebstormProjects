@@ -1,0 +1,39 @@
+/*html, body, div, ul, li, a, p {*/
+    /*border: 1px dashed hotpink;*/
+/*}*/
+
+header {
+    margin-bottom: 7rem;
+    color: whitesmoke;
+    background-color: deepskyblue;
+    box-shadow: 0 0.1rem 0.8rem dodgerblue;
+}
+
+div {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: flex;
+}
+
+header a:hover {
+    background-color: dodgerblue;
+}
+
+a {
+    padding: 1rem;
+}
+
+p {
+    max-width: 60%;
+    line-height: 2;
+}
