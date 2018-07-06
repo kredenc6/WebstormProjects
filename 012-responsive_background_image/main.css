@@ -6,6 +6,31 @@ html {
     font-family: 'Cantarell', sans-serif;
     color: whitesmoke;
 }
+/* ----- -----*/
+/* -----HEADER ----- */
+/* ----- -----*/
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.8rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.7);
+}
+
+nav div {
+    width: 10%;
+    height: 80%;
+    margin: 5px 2rem 0 2rem;
+    background-color: red;
+}
 
 #idx-atf {
     height: 100vh;
@@ -51,4 +76,8 @@ h2 {
     color: rgb(202, 250, 234);
     border: 1px solid rgb(202, 250, 234);
     border-radius: 5px;
+}
+
+p {
+    width: 30%;
 }
