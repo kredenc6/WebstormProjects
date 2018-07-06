@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="rect" viewBox="0 0 100 100">
+        <rect x="10" y="10" width="30" height="40" stroke="black" fill="transparent" stroke-width="5"/>
+    </symbol>
+
+    <symbol id="elli" viewBox="0 0 100 100">
+        <ellipse cx="75" cy="75" rx="20" ry="5" stroke="red" fill="transparent" stroke-width="5"/>
+    </symbol>
+
+    <symbol id="polyg" viewBox="0 0 100 100">
+        <polygon points="50 160 55 180 70 180 60 190 65 205 50 195 35 205 40 190 30 180 45 180" stroke="orange" fill="yellow" stroke-width="5"/>
+    </symbol>
+
+    <symbol id="path" viewBox="0 0 300 300">
+        <path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>
+    </symbol>
+
+</svg>

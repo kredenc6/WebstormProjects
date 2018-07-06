@@ -1,0 +1,13 @@
+svg {
+    fill: blue;
+    color: pink;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+svg:hover {
+    color:red;
+    stroke-width: 2%;
+    stroke: black;
+}
