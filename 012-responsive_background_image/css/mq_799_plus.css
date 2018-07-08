@@ -1,0 +1,35 @@
+.nav_desktop {
+    justify-content: space-between;
+}
+
+.nav_desktop div {
+    display: flex;
+}
+
+.nav_desktop div, .a_nav {
+    justify-content: space-around;
+    margin: 5px 1rem 0 1rem;
+    width: 300px;
+}
+
+
+.a_nav svg {
+    display: inline-block;
+}
+
+.nav_desktop div a svg {
+    margin: 0 .5rem;
+    padding: .4rem .7rem;
+}
+
+.nav_desktop a svg {
+    margin-left: 2rem;
+}
+
+.nav_desktop a h1 {
+    margin-right: 2rem;
+}
+
+.nav_mobile {
+    display: none;
+}

@@ -6,27 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../McLeod_css_reset/mcLeod_css_reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell:400,700">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mq_799_plus.css" media="(min-width: 800px)">
 </head>
 <body>
 
 <header>
-    <nav>
-        <div></div>
-        <div></div>
+    <nav class="nav_desktop">
+        <a class="a_nav" href="#">
+            <svg><use xlink:href="#universal_access"></use></svg>
+            <h1>Colibri Coding Bootcamp</h1>
+        </a>
+        <div>
+            <a href="#"><svg><use xlink:href="#home"></use></svg></a>
+            <a href="#"><svg><use xlink:href="#briefcase"></use></svg></a>
+            <a href="#"><svg><use xlink:href="#pencil"></use></svg></a>
+            <a href="#"><svg><use xlink:href="#cog"></use></svg></a>
+        </div>
     </nav>
 </header>
 
 <section id="idx-atf">
     <div class="idx-center">
-    <h1>responsive full background image</h1>
-    <h2>secure&nbsp;your&nbsp;future</h2>
-    <h3>learn&nbsp;to&nbsp;code and always&nbsp;be&nbsp;employable</h3>
-    <button id="b-atf">buid your future</button>
+        <h1>responsive full background image</h1>
+        <h2>secure&nbsp;your&nbsp;future</h2>
+        <h3>learn&nbsp;to&nbsp;code and always&nbsp;be&nbsp;employable</h3>
+        <button id="b-atf">buid your future</button>
     </div>
 </section>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, repellendus, velit? Ad aliquam, corporis dolore error ex exercitationem facilis odio perspiciatis quaerat reiciendis, repellendus similique ullam voluptate. Fuga laborum, voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque fugit ipsum molestiae officiis repellat. Culpa cum dignissimos eos hic iusto natus non optio quibusdam quos repellendus reprehenderit soluta, unde veritatis.Ad adipisci amet assumenda blanditiis distinctio excepturi harum illum iste libero maxime minus modi mollitia necessitatibus pariatur perferendis porro quae, quo quos, suscipit voluptates. Deleniti dolor itaque molestias repellendus similique?A at consectetur eius fugiat ipsum itaque possimus veritatis. Aut commodi, consectetur, consequatur dicta distinctio dolor dolore earum eos facilis in ipsa ipsam iusto labore quas sequi sint vero voluptates?Accusantium ad aliquid animi aut dolor est, fuga, laborum magni modi natus, nulla qui rem sapiente suscipit voluptatum? A aut commodi exercitationem facilis fugit inventore ipsum itaque repellat unde ut.A ad adipisci atque deserunt dicta dolorem, excepturi maiores minima quo quos unde vero vitae voluptates? Autem blanditiis dicta dolore dolores error, laborum minima minus natus quidem reiciendis, temporibus veritatis!In ipsam magnam officia quisquam voluptatem. Accusamus animi deserunt doloremque ducimus, eaque eveniet excepturi iste odio possimus quibusdam quidem ratione recusandae reiciendis repellat repellendus sint suscipit vel velit voluptatem voluptatibus?Accusantium, autem commodi consectetur debitis dolore eligendi eum hic mollitia odio optio pariatur quibusdam quis, reiciendis ullam vel. Consectetur ea facilis, illum magnam mollitia nesciunt praesentium quaerat tempore vel veritatis!Adipisci aliquam itaque nam nemo quas repudiandae vel. Aliquid distinctio et quae quas repudiandae soluta voluptatum. Accusantium consectetur deleniti deserunt ducimus error facilis minima neque officia quae repellat temporibus, vero!</p>
+<footer>
+    <nav class="nav_mobile">
+        <a href="#">
+            <svg><use xlink:href="#home"></use></svg>
+            Home
+        </a>
+        <a href="#">
+            <svg><use xlink:href="#briefcase"></use></svg>
+            Portfolio
+        </a>
+        <a href="#">
+            <svg><use xlink:href="#pencil"></use></svg>
+            Edit
+        </a>
+        <a href="#">
+            <svg><use xlink:href="#cog"></use></svg>
+            Settings
+        </a>
+    </nav>
+</footer>
+
+
+<!--SYMBOL DECLARATION-->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" display="none">
+    <symbol id="universal_access" viewBox="0 0 100 100">
+    <path d="m50 10.2c22 0 39.8 17.8 39.8 39.8 0 22-17.8 39.8-39.8 39.8-22 0-39.8-17.8-39.8-39.8 0-22 17.8-39.8 39.8-39.8m0-7.66c-26.2 0-47.5 21.3-47.5 47.5s21.3 47.5 47.5 47.5 47.5-21.3 47.5-47.5-21.3-47.5-47.5-47.5zm0 10.7c-20.3 0-36.8 16.5-36.8 36.8s16.5 36.8 36.8 36.8 36.8-16.5 36.8-36.8-16.5-36.8-36.8-36.8zm0 8.43c3.81 0 6.9 3.09 6.9 6.9s-3.09 6.9-6.9 6.9-6.9-3.09-6.9-6.9 3.09-6.9 6.9-6.9zm22.6 18.8c-5.5 1.3-10.6 2.44-15.7 3.03 0.163 19.3 2.36 23.6 4.8 29.8 0.693 1.77-0.183 3.77-1.96 4.47-1.77 0.693-3.77-0.183-4.47-1.96-1.67-4.27-3.27-7.78-4.26-15h-1.86c-0.99 7.25-2.59 10.8-4.26 15-0.692 1.77-2.69 2.65-4.47 1.96-1.77-0.693-2.65-2.69-1.96-4.47 2.43-6.23 4.63-10.4 4.8-29.8-5.1-0.586-10.2-1.73-15.7-3.03-1.65-0.389-2.67-2.04-2.28-3.69s2.04-2.67 3.69-2.28c18.5 4.37 23.8 4.36 42.3 0 1.65-0.389 3.3 0.631 3.69 2.28 0.389 1.65-0.631 3.3-2.28 3.69z" stroke-width=".192"/>
+</symbol>
+    <symbol id="home" viewBox="0 0 100 100">
+    <path d="m83 62v30.4c0 2.82-1.76 5.09-3.96 5.09h-19.1c-1.09 0-1.98-1.15-1.98-2.55v-23.8c0-1.4-0.891-2.55-1.98-2.55h-11.9c-1.09 0-1.98 1.15-1.98 2.55v23.8c0 1.4-0.891 2.55-1.98 2.55h-19.1c-2.19 0-3.96-2.27-3.96-5.09v-30.4c0-0.764 0.264-1.49 0.726-1.97l31-32.9c0.726-0.764 1.78-0.764 2.52 0l31 32.9c0.445 0.488 0.709 1.21 0.709 1.97zm13.8-12.9-13.8-14.6v-29.4c0-1.4-0.891-2.55-1.98-2.55h-9.24c-1.09 0-1.98 1.15-1.98 2.55v15.4l-14.8-15.6c-2.92-3.1-7.14-3.1-10.1 0l-41.7 44.2c-0.841 0.891-0.957 2.5-0.264 3.59l4.21 6.58c0.693 1.08 1.95 1.23 2.79 0.34l38.8-41.1c0.726-0.764 1.78-0.764 2.52 0l38.8 41.1c0.841 0.891 2.09 0.743 2.79-0.34l4.21-6.58c0.693-1.1 0.561-2.7-0.28-3.59z" stroke-width=".187"/>
+</symbol>
+    <symbol id="briefcase" viewBox="0 0 100 100">
+    <path d="m61.9 56.8h35.6v30.5c0 5.62-3.99 10.2-8.91 10.2h-77.2c-4.92 0-8.91-4.56-8.91-10.2v-30.5h35.6v4.24c0 1.41 0.997 2.54 2.23 2.54h19.3c1.23 0 2.23-1.14 2.23-2.54zm35.6-23.8v17h-95v-17c0-5.62 3.99-10.2 8.91-10.2h14.8v-10.2c0-5.62 3.99-10.2 8.91-10.2h29.7c4.92 0 8.91 4.56 8.91 10.2v10.2h14.8c4.92 0 8.91 4.56 8.91 10.2zm-35.6-17h-23.8v6.79h23.8z" stroke-width=".198"/>
+</symbol>
+    <symbol id="pencil" viewBox="0 0 100 100">
+    <path d="m94.9 28.9-8.55 8.55c-0.872 0.872-2.28 0.872-3.15 0l-20.6-20.6c-0.872-0.872-0.872-2.28 0-3.15l8.55-8.55c3.47-3.47 9.11-3.47 12.6 0l11.2 11.2c3.49 3.47 3.49 9.11 0 12.6zm-39.7-7.85-48.7 48.7-3.93 22.5c-0.538 3.04 2.12 5.68 5.16 5.16l22.5-3.95 48.7-48.7c0.872-0.872 0.872-2.28 0-3.15l-20.6-20.6c-0.891-0.872-2.3-0.872-3.17 0zm-29.7 44.6c-1.02-1.02-1.02-2.65 0-3.67l28.6-28.6c1.02-1.02 2.65-1.02 3.67 0 1.02 1.02 1.02 2.65 0 3.67l-28.6 28.6c-1.02 1.02-2.65 1.02-3.67 0zm-6.7 15.6h8.91v6.74l-12 2.1-5.77-5.77 2.1-12h6.74z" stroke-width=".186"/>
+</symbol>
+    <symbol id="cog" viewBox="0 0 100 100">
+    <path d="m87.8 56.7 8.53 4.71c0.974 0.538 1.43 1.65 1.09 2.68-2.21 6.83-6 13-10.9 18.1a2.4 2.3 0 0 1-2.97 0.432l-8.52-4.71a38.3 36.7 0 0 1-12.2 6.73v9.42a2.4 2.3 0 0 1-1.88 2.24c-6.99 1.5-14.5 1.58-21.9 0.0013-1.1-0.236-1.88-1.17-1.88-2.25v-9.42a38.3 36.7 0 0 1-12.2-6.73l-8.52 4.71a2.4 2.3 0 0 1-2.97-0.432c-4.95-5.12-8.73-11.3-10.9-18.1-0.334-1.03 0.118-2.14 1.09-2.68l8.53-4.71a38.7 37.1 0 0 1 0-13.4l-8.53-4.71c-0.974-0.538-1.43-1.65-1.09-2.68 2.21-6.83 6-13 10.9-18.1a2.4 2.3 0 0 1 2.97-0.432l8.52 4.71a38.3 36.7 0 0 1 12.2-6.73v-9.42a2.4 2.3 0 0 1 1.88-2.24c6.99-1.5 14.5-1.58 21.9-0.00134 1.1 0.236 1.88 1.17 1.88 2.25v9.42a38.3 36.7 0 0 1 12.2 6.73l8.52-4.71a2.4 2.3 0 0 1 2.97 0.432c4.95 5.12 8.73 11.3 10.9 18.1 0.334 1.03-0.118 2.14-1.09 2.68l-8.53 4.71a38.7 37.1 0 0 1 0 13.4zm-21.8-6.72c0-8.45-7.18-15.3-16-15.3-8.83 0-16 6.87-16 15.3s7.18 15.3 16 15.3c8.83 0 16-6.87 16-15.3z" stroke-width=".196"/>
+</symbol>
+</svg>
+<!--END OF SYMBOL DECLARATION-->
 
 </body>
 </html>
