@@ -1,0 +1,71 @@
+html, body, div, svg {
+    /*border: 1px solid hotpink;*/
+}
+
+a {
+    border-radius: 8px;
+}
+
+a:hover {
+    color: #3a3a3a;
+    background-color: whitesmoke;
+}
+
+html {
+    color: whitesmoke;
+}
+
+h1 {
+    margin: 2rem 0;
+    font-size: 7vw;
+    font-weight: 800;
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    background-color: #6f6f6f;
+    box-shadow: 0 0 5px #6f6f6f;
+}
+
+#nav_left, #nav_right {
+    display: flex;
+}
+
+#nav_left {
+    justify-content: space-around;
+    width: 25%;
+}
+
+#nav_right {
+    align-items: center;
+    margin-right: 1.5%;
+}
+
+#nav_left a, #nav_right {
+    padding: .7rem 1rem;
+}
+
+#nav_left svg {
+    font-size: .6em;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section svg {
+    fill: hotpink;
+    font-size: 7vw;
+}
+

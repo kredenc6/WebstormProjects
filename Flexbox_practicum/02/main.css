@@ -1,0 +1,44 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid hotpink;*/
+}
+
+html {
+    font-size: 1vw;
+}
+
+body, div {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+}
+
+div {
+    justify-content: space-around;
+    font-size: 3rem;
+    /*border: 1px solid hotpink;*/
+}
+
+#all {
+    width: 80%;
+    border-bottom: 2px  solid darkgray;
+}
+
+.tab {
+    flex-grow: 1;
+    margin-bottom: 5px;
+    /*nebo: border-bottom: 5px solid transparent;*/
+    padding: 1em 0;
+}
+
+.tab:hover {
+    margin-bottom: 0;
+    border-bottom: 5px solid deepskyblue;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+body, div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid hotpink;*/
+}
+
+div {
+    font-size: 1.5rem;
+}
+
+#all {
+    width: 25vw;
+}
+
+#left, #right {
+    width: 25%;
+    height: 80px;
+    background-color: lightskyblue;
+    border: 1px solid dodgerblue;
+}
+
+#left {
+    border-radius: 20px 0 0 20px;
+}
+
+#right {
+    border-radius: 0 20px 20px 0;
+}
+
+#center {
+    width: 50%;
+    height: 80px;
+    border-top: 1px solid dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+#left:hover, #right:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
