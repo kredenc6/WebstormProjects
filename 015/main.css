@@ -1,0 +1,35 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+#no_tr:hover {
+    background-color: yellow;
+}
+
+#tr {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+}
+
+#tr:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#anim:hover {
+    animation-name: anim_hover;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim_hover {
+    0% {background-color: inherit;}
+    100% {background-color: red;}
+}
