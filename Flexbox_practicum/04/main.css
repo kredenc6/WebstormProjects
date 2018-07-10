@@ -1,0 +1,60 @@
+html {
+    font-size: 1vw;
+    color: lightslategray;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+footer {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid lightgray;
+}
+
+footer div {
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+footer div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div svg {
+    margin: 0 .5rem;
+    font-size: 1.3rem;
+    animation-name: saving_in_progress;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes saving_in_progress {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+button {
+    color: deepskyblue;
+    padding: 1rem 1.5rem;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: white;
+}

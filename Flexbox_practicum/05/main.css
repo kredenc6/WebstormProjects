@@ -1,0 +1,39 @@
+html {
+    font-size: 1vw;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+button {
+    width: 100%;
+    padding: .8rem 0 .8rem 2.5rem;
+    font-size: 1.5rem;
+    color: deepskyblue;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #dce9f5;
+}
+
+nav {
+    width: 12%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+}
+
+#nav_top {
+    margin-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#nav_bottom {
+    margin-bottom: 2rem;
+}

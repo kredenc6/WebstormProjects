@@ -1,0 +1,39 @@
+html {
+    font-size: 1vw;
+    color: lightslategray;
+}
+
+main, #frame, .frame_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100vh;
+}
+
+#frame {
+    flex-flow: column nowrap;
+    width: 60%;
+    height: 70%;
+    border: 1px solid lightslategray;
+    border-radius: 15px;
+    font-size: 1.8rem;
+}
+
+.frame_part {
+    width: 90%;
+    height: 33.33%;
+    justify-content: flex-start;
+}
+
+#frame div:nth-child(2) {
+    border-top: 1px solid lightslategray;
+    border-bottom: 1px solid lightslategray;
+}
+
+.frame_part svg {
+    font-size: 2.5rem;
+    padding: 0 3rem;
+}

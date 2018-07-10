@@ -1,0 +1,41 @@
+html {
+    font-size: 1vw;
+    color: lightslategray;
+}
+
+#atf {
+    height: 100vh;
+}
+
+#atf, .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    flex-flow: column nowrap;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+svg {
+    font-size: 5rem;
+    padding: 1rem 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.cost {
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 1px solid lightslategray;
+    background-color: lightblue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: dimgray;
+    text-align: center;
+}

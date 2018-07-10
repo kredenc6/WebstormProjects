@@ -1,0 +1,15 @@
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    padding: 4rem;
+    font-size: 4rem;
+    color: #bcc6d6;
+    border: 1px solid #bcc6d6;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
