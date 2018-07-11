@@ -1,0 +1,72 @@
+html, body, main, section, header, div, nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.2));
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+nav div {
+    width: 15%;
+    height: 80%;
+    margin: 0 2%;
+    background-color: red;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/beach.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#show_menu {
+    display: none;
+}
+
+label {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.41);
+    border: 1px dotted orangered;
+    border-radius: 8px;
+}
+
+label:hover {
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+#show_menu:checked ~ nav {
+    top: -100px;
+}
