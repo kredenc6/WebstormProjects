@@ -1,0 +1,55 @@
+html, body, form, div, label, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2vw;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid sandybrown;
+}
+
+#div_1, #div_2, #div_3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+    /*border: 1px solid blue;*/
+}
+
+label {
+    margin-right: 15px;
+}
+
+input, textarea {
+    width: 12rem;
+    font-size: 1rem;
+    border: 1px solid lightgrey;
+}
+
+input[type="submit"] {
+    width: 6rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+input[type="submit"]:hover {
+    background-color: yellow;
+    cursor: pointer;
+}

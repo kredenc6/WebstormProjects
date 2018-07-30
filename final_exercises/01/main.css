@@ -1,0 +1,269 @@
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*font-family: 'Alice', serif;*/
+
+/*html, body, article, section, div, button {*/
+    /*border: 1px dashed hotpink;*/
+/*}*/
+
+/*article {*/
+    /*border: 1px dotted blue;*/
+/*}*/
+
+/* ***************************************************************************************** */
+/* ----- GENERAL USE ----- */
+/* ***************************************************************************************** */
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #a5a5a5;
+}
+
+article, footer {
+    margin: 0 4rem;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p, li, a {
+    color: #7d7d7d;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ol {
+    margin-left: 1rem;
+}
+
+ /**** HEADINGS ****/
+
+h1 {
+    margin: 1.5rem auto;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+h3, h4 {
+    font-family: 'Alice', serif;
+    font-size: 1.5rem;
+    color: #4b4b4b;
+}
+
+h3 {
+    margin: 1rem 0 .5rem 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h4 {
+    margin: 1.2rem 0 .5rem 0;
+}
+
+h5, h6 {
+    color: red;
+    text-align: center;
+}
+
+h5 {
+    margin: 1.5rem 0;
+    font-family: 'Alice', serif;
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 2.3rem;
+    margin: 1.2rem 0;
+}
+
+ /**** BUTTON ****/
+
+button {
+    display: block;
+    width: 14rem;
+    margin: 2rem auto 1rem auto;
+    padding: .7rem 0;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: red;
+}
+
+ /**** REUSABLES ****/
+
+.article_end {
+    width: 85%;
+    margin: 2rem auto 3rem auto;
+    border-bottom: 1px solid #919191;
+}
+
+.div_source {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a_source {
+    font-size: .8rem;
+}
+
+.a_source:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* ***************************************************************************************** */
+/* ----- HEADER ----- */
+/* ***************************************************************************************** */
+
+header {
+    margin-bottom: 2rem;
+    color: #4b4b4b;
+}
+
+header h1 {
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navline {
+    width: 25%;
+    margin: 0 2rem;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    margin: 0 .5rem;
+    padding: .4rem .8rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+}
+
+/* ***************************************************************************************** */
+/* ----- HEALTHY AIR SECTION & ABOUT US SECTION ----- */
+/* ***************************************************************************************** */
+
+#healthy_air {
+    background-image: url("img/fam_blur.jpg");
+}
+
+#about_us {
+    background-image: url("img/us_left_web_30.jpg");
+}
+
+#healthy_air, #about_us {
+    max-width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#healthy_air h1, #about_us h1 {
+    margin-top: 5rem;
+    font-family: 'Alice', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: none;
+}
+
+#healthy_air h2, #about_us h2 {
+    max-width: 35rem;
+}
+
+
+/* ***************************************************************************************** */
+/* ----- LEARN ABOUT RADON ARTICLE ----- */
+/* ***************************************************************************************** */
+
+#radon_in {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+#radon_in li {
+    line-height: 1.5rem;
+}
+
+#img_rad_in {
+    margin-top: .5rem;
+}
+
+/* ***************************************************************************************** */
+/* ----- TESTING FOR RADON ARTICLE ----- */
+/* ***************************************************************************************** */
+
+table, th, td {
+    color: #404040;
+    font-size: .9rem;
+    border: 1px solid #a5a5a5;
+}
+
+td, th {
+    padding: .5rem 0 .5rem .5rem;
+}
+
+th {
+    text-align: left;
+    font-weight: 800;
+}
+
+tr:first-child {
+    background-color: #c3c3c3;
+}
+
+tr:nth-child(2n) {
+    background-color: #cdcdcd;
+}
+
+/* ***************************************************************************************** */
+/* ----- FOOTER ----- */
+/* ***************************************************************************************** */
+
+footer p {
+    margin-bottom: .3rem;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+
+footer a {
+    display: block;
+    margin: 0 auto;
+    width: 14rem;
+    color: blue;
+    font-weight: 400;
+    text-align: center;
+}

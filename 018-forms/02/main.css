@@ -1,0 +1,23 @@
+html, body, div, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    border: 1px solid green;
+}
+
+label {
+    font-size: 2rem;
+}
