@@ -1,0 +1,91 @@
+/*font-family: 'Lato', sans-serif;*/
+
+/*font-family: 'Indie Flower', cursive;*/
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+html {
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url("../img/g_s_03_five_small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header, #atf_part_one, #atf_part_two, footer {
+    width: 100%;
+}
+
+h1 {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+h2 {
+    padding-top: 1.5rem;
+}
+
+#commons {
+    align-self: flex-start;
+    font-size: 2rem;
+    color: #d7d7d7;
+}
+
+nav {
+    display: none;
+}
+
+#atf_part_one {
+    display: flex;
+    align-items: center;
+}
+
+#great_classes {
+    font-size: 4.5rem;
+}
+
+#great_classes:hover {
+    color: red;
+}
+
+#atf_part_two {
+    align-self: flex-end;
+    padding-bottom: 1.5rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+}
+
+#atf_part_two p {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    /*border: 1px solid hotpink;*/
+}
+
+button {
+    display: block;
+    width: 13rem;
+    margin: 0 auto;
+    padding: .7rem 0;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    background-color: red;
+}
+
+#description {
+    display: none;
+}
