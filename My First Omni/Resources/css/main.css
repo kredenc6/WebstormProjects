@@ -1,0 +1,304 @@
+/* -------------------------------------------------------------- */
+/*                      BASIC SETUP                               */
+/* -------------------------------------------------------------- */
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+body {
+    color: #555;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+section {
+    /*padding-top: 70px;*/
+    padding: 70px 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------------------------------- */
+/*                    REUSABLE COMPONENTS                         */
+/* -------------------------------------------------------------- */
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* ------ HEADERS ----- */
+
+h1 {
+    color: #e8e8e8;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+h2:after {
+    display: block;
+    margin: 1.8rem auto 2rem auto;
+    content: " ";
+    width: 7rem;
+    border-top: 2px solid orange;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 5px auto;
+}
+
+/* ------ BUTTONS ----- */
+
+.button{
+    display: inline-block;
+    border-radius: 200px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px 5px;
+}
+
+.button-filled:link,
+.button-filled:visited {
+    border: 1px solid #d18800;
+    color: #fff;
+    background-color: #d18800;
+    transition: background-color 0.2s;
+}
+
+.button-filled:hover,
+.button-filled:active {
+    background-color: #b17300;
+}
+
+.button-empty:link,
+.button-empty:visited {
+    border: 1px solid #d18800;
+    color: #d18800;
+    background-color: transparent;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.button-empty:hover,
+.button-empty:active {
+    color: #fff;
+    background-color: #d18800;
+}
+
+/* ------ ICONS ----- */
+
+.icon-big {
+    color: #d18800;
+    font-size: 350%;
+    
+}
+
+/* -------------------------------------------------------------- */
+/*                        HEADER                                  */
+/* -------------------------------------------------------------- */
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-selection {
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.header-selection li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-selection a:link,
+.header-selection a:visited {
+    color: #e8e8e8;
+    border-bottom: transparent;
+    transition: border 0.3s;
+}
+
+.header-selection a:hover,
+.header-selection a:active {
+    border-bottom: 2px solid #d18800;
+}
+
+header img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 45%;
+    left: 10%
+}
+
+/* -------------------------------------------------------------- */
+/*                        FEATURES                                */
+/* -------------------------------------------------------------- */
+
+.description {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* -------------------------------------------------------------- */
+/*                           MEALS                                */
+/* -------------------------------------------------------------- */
+
+#section-meals {
+    padding-bottom: 0;
+}
+
+.row-meals {
+    display: flex;
+}
+
+.picture-box {
+    background-color: black;
+    overflow: hidden;
+}
+
+.picture-box img {
+    width: 100%;
+    transform: scale(1.15);
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.picture-box img:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* -------------------------------------------------------------- */
+/*                           HOW IT WORKS                         */
+/* -------------------------------------------------------------- */
+
+#how_it_works {
+    background-color: #f0f0f0;
+    padding-bottom: 5rem;
+}
+
+#how_it_works img {
+    width: 40%;
+    height: auto;
+}
+
+#how_it_works li {
+    display: flex;
+    margin-bottom: 2.5rem;
+    align-items: center;
+}
+
+#how_it_works li div {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 2rem;
+    padding: .7rem 1.5rem 0 1.2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+
+#online_store img{
+    margin: 3rem 1rem 0 1rem;
+    width: 150px;
+    height: auto;
+}
+
+/* -------------------------------------------------------------- */
+/*                           CITIES                               */
+/* -------------------------------------------------------------- */
+
+#cities img {
+    width: 100%;
+    height: auto;
+}
+
+#cities h3 {
+    margin: 1rem 0;
+}
+.ion-logo-twitter, .ion-md-person, .ion-md-star {
+    width: 2rem;
+    height: 2rem;
+    margin-right: .2rem;
+    text-align: center;
+    color: orange;
+}
+
+.ion-logo-twitter, .ion-md-person {
+    font-size: 1.5rem;
+    padding-top: .2rem;
+}
+
+.ion-md-star {
+    font-size: 1.8rem;
+ }
+
+.cities_info {
+    display: flex;
+    align-items: center;
+}
+
+/* -------------------------------------------------------------- */
+/*                           CUSTOMERS                            */
+/* -------------------------------------------------------------- */
+
+
+#customers {
+    font-weight: 300;
+    font-style: italic;
+    color: #e8e8e8;;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Img/back-customers.jpg");
+    background-attachment: fixed;
+}
+#customers img {
+    margin-right: 1rem;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+}

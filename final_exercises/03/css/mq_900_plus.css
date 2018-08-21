@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 1.2rem 0;
+    flex-grow: 1;
+    font-size: 1.2rem;
+}
+
+#nav_tablet {
+    flex-grow: 3;
+}
+
+#nav_tablet ul, #nav_tablet li, #nav_tablet a {
+    height: 100%;
+}
+
+#nav_tablet a {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

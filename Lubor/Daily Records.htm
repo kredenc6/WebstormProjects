@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html><head lang="en">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Daily Records</title>
+    <meta charset="UTF-8">
+    <link href="Daily%20Records_soubory/bootstrap.css" rel="stylesheet" media="screen">
+
+    <script src="Daily%20Records_soubory/jquery.htm"></script>
+
+    <link href="Daily%20Records_soubory/spring-core.htm" rel="stylesheet" media="screen">
+</head>
+<body>
+
+<div class="container">
+    <div>
+    <label>Logged user: user</label>
+    <form style="float:right" method="GET" action="/gratitudediary/dailyrecord">
+            <input class="btn btn-default" value="My Diary" type="submit">
+    </form>
+    <form style="float:right" method="GET" action="/gratitudediary">
+            <input class="btn btn-default" value="Shared Highlights" type="submit">
+    </form>
+    <form style="float:right" method="POST" action="/logout">
+            <input class="btn btn-default" value="Logout" type="submit">
+    </form>
+    <hr>
+</div>
+    <div>
+        <h2 style="display:inline-block">Daily Records</h2>
+
+        <form style="float:right" class="form-inline" method="post" action="/gratitudediary/dailyrecord/">
+            <input class="form-control" id="date" name="date" value="2018-08-23" type="date">
+            <button type="submit" class="btn btn-default">New</button>
+        </form>
+        <form style="float:right" action="/gratitudediary/dailyrecord/export">
+            <button type="submit" class="btn btn-default">Export</button>
+        </form>
+    </div>
+    <div>
+        <table class="table table-striped">
+            <colgroup>
+                <col width="110">
+            </colgroup>
+            <tbody><tr>
+                <th>Date</th>
+                <th>Daily Headlines</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>2018-08-04</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za ranní procházku křížovou cestou, za krásné výhledy do kraje a super ostružiny</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za vstavací pohyb, který nás minulý týden naučil Rado</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za hru s ohnivými loučemi a zejména za jejich zvuk</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za několik pohledů na ženy, které
+ si alespoň na chvíli dovolili vyjít bez podprsenky. Vyniká potom naplno
+ jejich přirozenost</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za uvědomění, že je třeba znát 
+svou cenu a že se vždycky někdo najde, kdo bude ochoten ji zaplatit. Viz
+ vikend, který stál 3600 a nejsem si zcela jist, že pro mě tuhle cenu 
+měl</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem Jirka Mařík přijal moji nabídku na průvodcování mé cesty</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/2">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/2/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-05</td>
+                <td>
+                    <ul>
+                       <li>- nádherná prohlídka skanzenu ve Vysokém Chlumci</li>
+                    </ul>
+                    <ul>
+                       <li>- jsem vděčný za to, že jsem opět trochu pohnul s deníčkem vděčnosti</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/3">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/3/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-06</td>
+                <td>
+                    <ul>
+                       <li>- jsem vděčný za seběvědomý pocit, když jsme se Zuzkou znovu a znovu zkoušeli přechod do netopýra</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/4">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/4/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-07</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za osvěžující pocit, při závěru polknutí při konzumaci kokosové IPY ve strahovském klášteře</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem se pustil do lehké opravy dalšího pokoje. Ten pocit z budoucího tvoření je k nezaplacení.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/5">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/5/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-08</td>
+                <td>
+                    <ul>
+                       <li>- Jsem vděčný za to, že vytrvávám v úpravě 
+pokoje, i když to bude náročnější, než jsem si původně plánoval. Ale moc
+ se těším na výsledek, protože ty kýble potu, který jsem už teď prolil 
+se musí někde projevit.</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za to, že mě Žaneta osobně pozvala na oslavu svých narozenin na Brádlerových boudách</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za knihu Mnich, který prodal své Ferrari, protože je naprosto úžasná.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/6">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/6/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-09</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za ranní procházku</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/7">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/7/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-10</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za pocit absolutní zoufalosti, když jsem nevěděl, co v práci vlastně dělám </li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za pocit spojení při sdílení na kruhu.</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem mohl Tomášovi 
+předat inspiraci k impro v parku a za rozhovor o stavu mužství a našeho 
+aktuálního rozpoložení</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/8">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/8/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-11</td>
+                <td>
+                    <ul>
+                       <li>- Jsem vděčný za dopolední cestu autem z Prahy domů, která mi přinášela absolutní svobodu</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za to, že jsem mohl vidět zastavení veteránů v Potštejně a především nadšení lidí, kteří s nimi přijeli</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za krásu, která vyzařovala z Báry Jahodové. Nádherná energie z ní přímo prýštila.</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za setkání s Alexandrou, se kterou jsme si pěkně posouhlasili s názory na život</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za nádherný smích Ivanky Jindry Nováka</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/9">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/9/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-13</td>
+                <td>
+                    <ul>
+                       <li>- Jsem vděčný za pokojné ráno v posteli, kdy mě provázely příjemné myšlenky</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za krásný pohled do jemného výstřihu, který se mi naskytl ráno v metru</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za setkání s Kami na impru v parku a hlavně na závěrečné objetí, které bylo nádherně procítěné.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/11">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/11/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-14</td>
+                <td>
+                    <ul>
+                       <li>- jsem vděčný za to jak, se mi dnes podařilo vyřešit pracovní úkol</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/12">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/12/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-15</td>
+                <td>
+                    <ul>
+                       <li>- Jsem vděčný za ranní náhodné setkání s 
+Verčou Maluškovou a zejména za pocit, že jsem se posunul o velký kus 
+dopředu od doby, kdy jsme se viděli poprvé.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/13">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/13/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-16</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem šel na cuddling workshop, který pořádala Villé</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za vnímání krásy a pevnosti, které jsem vnímal při pohledu na spojení mé a Martininy ruky</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem Martině nabídl bezpečný dotek a ona jej přijala.</li>
+                    </ul>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem mohl Martině poskytnout intuitivní masáž čtyř živlů, kterou si užívala ona i já.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/14">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/14/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-17</td>
+                <td>
+                    <ul>
+                       <li>- Jsem vděčný za to, že jsem si dopřál ranní procházku</li>
+                    </ul>
+                    <ul>
+                       <li>- Jsem vděčný za to, že jsem objevil knihu 59 sekund od Richarda Wisemana</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/15">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/15/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-19</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem si uvědomil, že Vivien měla zásadní vliv na můj život.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/17">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/17/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-20</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem se dnes ráno probudil s úsměvem na rtech</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/18">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/18/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-21</td>
+                <td>
+                    <ul>
+                       <li>Jsem vděčný za to, že jsem si uvědomil, že 
+máme s Konstantinem stejný cíl, ale jiné přístupy k jeho dosažení a já 
+si musím najít svoji cestu, jak dojít ke společnému cíli.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/19">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/19/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2018-08-22</td>
+                <td>
+                    <ul>
+                       <li>Tak tenhle programátorský vtip mě fakt pobavil. Jméno proměnné jkljkl je opravdu úžasné.</li>
+                    </ul>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="post" action="/gratitudediary/dailyrecord/20">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Delete</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form class="form-horizontal" method="get" action="/gratitudediary/dailyrecord/20/edit">
+                        <div class="row">
+                            <button type="submit" class="btn btn-default">Edit</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+
+</body></html>

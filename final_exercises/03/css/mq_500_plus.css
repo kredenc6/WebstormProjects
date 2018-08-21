@@ -1,0 +1,43 @@
+h1 {
+    padding: .8rem 0;
+}
+
+#hero {
+    background-image: url("../img/adventure-lg.jpg");
+    background-position: center;
+}
+
+#nav_mobile {
+    display: none;
+}
+
+#nav_tablet {
+    display: block;
+    text-transform: uppercase;
+}
+
+#nav_tablet ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav_tablet li {
+    flex-grow: 1;
+    font-size: .9rem;
+    text-align: center;
+    color: #59249b;
+}
+
+#nav_tablet li:hover {
+    background-color: rgba(255, 255, 0, 0.15);
+}
+
+#nav_tablet a {
+    display: block;
+    padding: .8rem 0;
+}
+
+#description div {
+    max-width: 49%;
+    padding: 0 .2rem;
+}
